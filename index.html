@@ -12,11 +12,11 @@
   <p id="description">Description</p>
   <!-- form -->
   <form id="survey-form">
-    <label id="name-label">Name: <input type="text" id="name" required placeholder="Youssef kh">  </label>
+    <label id="name-label">Name: <input type="text" id="name" required placeholder="Youssef kh" class="in">  </label>
    
-   <label id="email-label">email:<input type="email" id="email" required placeholder="ex@gmail.com"></label>
+   <label id="email-label">email:<input type="email" id="email" required placeholder="ex@gmail.com" class="in"></label>
 
-   <label id="number-label"> number: <input type="number" id="number" min="18" max="120" placeholder="age"></label>
+   <label id="number-label"> number: <input type="number" id="number" min="18" max="120" placeholder="age" class="in"></label>
   <!-- select -->
   <select id="dropdown">
     <option>Coffee</option>
@@ -24,6 +24,32 @@
     <option>Else</option>
     </select>
 
+
+    <fieldset class="fd1">
+      <legend>choose you fav lg</legend>
+    <input type="radio" name="lg" value="css">css
+    
+    <input type="radio" name="lg" value="html">html
+     </fieldset>
+
+    <fieldset class="fd1">
+      <legend>Snack</legend>
+      <input type="checkbox" value="cake">Cake
+     <input type="checkbox" value="juice">Juice
+       <input type="checkbox" value="chips">chips
+
+
+
+      </fieldset>
+      
+      <textarea cols="20" rows="10">
+      </textarea>
+
+    <input type="submit" id="submit">
+  </form>
+    
+</body>
+</html>
 
     <fieldset class="fd1">
       <legend>choose you fav lg</legend>
